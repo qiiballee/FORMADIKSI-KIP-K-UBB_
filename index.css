@@ -128,7 +128,7 @@ nav ul li a:hover{
     padding-top: 20px;
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:300px){
     .index{
         width: 355px;
     }
@@ -183,7 +183,7 @@ nav ul li a:hover{
         height: 300px;
         width: 300px;
         margin-bottom: 70px;
-        margin-right: 35px;
+        
         opacity: 40%;
             
     }

@@ -60,22 +60,12 @@ nav ul li a:hover{
     border: 2px solid red;
     background-color: transparent;
 }
-.image{
-    width: 75%;
-    height: 75%;
-    position: absolute;
-    bottom: 0;
-    right: 75px;
-    transform: translateY(180deg)
 
-}
 .image img{
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    right: 10%;
-    transform: translateX(20%)
+  width: 400px;
+  height: 400px;
+  padding-top: 50px;
+  opacity: 30%;
 }
 .content{
     position: absolute;
@@ -127,6 +117,15 @@ nav ul li a:hover{
 .Text2{
     padding-top: 20px;
 }
+.war1{
+    color: rgb(17, 17, 99);
+}
+.war2{
+    color: rgb(85, 8, 85);
+}
+.war4{
+    color: red;
+}
 
 @media only screen and (min-width:1920px)
 { 
@@ -140,7 +139,7 @@ nav ul li a:hover{
 
 }
 
-@media only screen and (max-width:400px)
+@media only screen and (max-width:500px)
 { 
     span{
         color: whitesmoke;
@@ -161,17 +160,17 @@ nav ul li a:hover{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        padding-right: 8%;
-        padding-left: 8%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
         background-color: #191919;
         border-bottom: 3px solid black;
     }
     nav ul li {
         list-style-type: none;
         display: inline-block;
-        padding:5px 5px;
+        padding:2px 2px;
     }
     nav a{
         font-size: 10px;
@@ -182,8 +181,8 @@ nav ul li a:hover{
         color: wheat;
         border: 2px solid white;
         font-weight: bold;
-        padding: 3px 9px;
-        border-radius: 30px;
+        padding: 3px 6px;
+        border-radius: 20px;
         transition: transform .5s;
     }
     nav ul li a{
@@ -192,30 +191,13 @@ nav ul li a:hover{
         font-size: 8px;
         text-transform: capitalize; 
     }  
-    .image {
-        width: 400px;
-        height: 400px;
-        position: none;             
-        bottom: 50px;
-        right: relative;
-        left: relative;
-        transform: rotateY(none);
-        justify-content: center;
-        align-items: center;
-        opacity: 40%;
-        display: grid;
-        padding-top: 20px;
-        top: 70px;
-        
-    }
+    
     .image img{
-        height: 70%;
-        width: 65%;
-        position: none;
-        bottom: none;
-        right: none;
-        transform: translateX(none)
-        
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 250px;
+        height: 250px;
+       
       
        
     }
@@ -369,5 +351,7 @@ nav ul li a:hover{
         padding: 9px 22px;
         border-radius: 30px;
     }
-   
+   .war3{
+    font-size: 24px;
+   }
 }

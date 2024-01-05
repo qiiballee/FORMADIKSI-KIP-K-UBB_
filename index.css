@@ -261,7 +261,7 @@ nav ul li a:hover{
     }
     .about-text h2{
         color: #191919;
-        font-size: 50px;
+        font-size: 30px;
         text-transform: capitalize;
         margin-bottom: 20px;
         border-bottom: 5px solid red;
@@ -270,7 +270,7 @@ nav ul li a:hover{
     .about-text h5{
         color: #000;
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 10px;
         margin-bottom: 25px;
         text-transform: capitalize;
     }
@@ -365,4 +365,5 @@ nav ul li a:hover{
         padding: 9px 22px;
         border-radius: 30px;
     }
+   
 }

@@ -197,21 +197,23 @@ nav ul li a:hover{
         height: 400px;
         position: none;             
         bottom: 90px;
-        right: 55px;
+        right: none;
+        left: none;
         transform: rotateY(180d3g);
         justify-content: center;
         align-items: center;
         opacity: 40%;
-       
+        display: grid;
+        
     }
     .image img{
         height: 60%;
         width: 55%;
         position: none;
-        bottom: 0;
-        right: 10%;
+        bottom: none;
+        right: none;
         transform: translateX(20%)
-        imag
+        
       
        
     }
@@ -261,7 +263,7 @@ nav ul li a:hover{
     }
     .about-text h2{
         color: #191919;
-        font-size: 30px;
+        font-size: 10px;
         text-transform: capitalize;
         margin-bottom: 20px;
         border-bottom: 5px solid red;

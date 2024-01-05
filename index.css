@@ -128,9 +128,27 @@ nav ul li a:hover{
     padding-top: 20px;
 }
 
-@media only screen and (max-width:300px){
+@media only screen and (min-width:1920px)
+{ 
     .index{
-        width: 355px;
+       
+        background-color: wheat;
+        
+    }
+    
+    
+
+}
+
+@media only screen and (max-width:400px)
+{ 
+    span{
+        color: whitesmoke;
+    }
+    .index{
+       
+        background-color: wheat;
+        
     }
     .logo{
         width: 30%;
@@ -145,8 +163,8 @@ nav ul li a:hover{
         justify-content: space-between;
         padding-top: 4px;
         padding-bottom: 4px;
-        padding-right: 2%;
-        padding-left: 2%;
+        padding-right: 8%;
+        padding-left: 8%;
         background-color: #191919;
         border-bottom: 3px solid black;
     }
@@ -154,6 +172,10 @@ nav ul li a:hover{
         list-style-type: none;
         display: inline-block;
         padding:5px 5px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
     }
     .btn{
         background-color: red;
@@ -167,25 +189,31 @@ nav ul li a:hover{
     nav ul li a{
         color: white;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 8px;
         text-transform: capitalize; 
     }  
     .image {
-        width: 50%;
-        height: 65%;
-        position: absolute;             
-        bottom: 0;
-        right: 30px;
+        width: 400px;
+        height: 400px;
+        position: none;             
+        bottom: 90px;
+        right: 55px;
         transform: rotateY(180d3g);
+        justify-content: center;
+        align-items: center;
+        opacity: 40%;
+       
     }
     .image img{
+        height: 60%;
+        width: 55%;
+        position: none;
+        bottom: 0;
+        right: 10%;
+        transform: translateX(20%)
+        imag
+      
        
-        height: 300px;
-        width: 300px;
-        margin-bottom: 70px;
-        
-        opacity: 40%;
-            
     }
     h4{
         color: red;
@@ -216,9 +244,9 @@ nav ul li a:hover{
         width: 550px;
         max-width: 95%;
         margin: 0 auto;
-        display: flex;
+        display: grid;
         align-items:center;
-        justify-content: space-between;
+        justify-content: center;
     }
     .about-me img{
         height: auto;
@@ -233,7 +261,7 @@ nav ul li a:hover{
     }
     .about-text h2{
         color: #191919;
-        font-size: 10px;
+        font-size: 50px;
         text-transform: capitalize;
         margin-bottom: 20px;
         border-bottom: 5px solid red;
@@ -242,7 +270,7 @@ nav ul li a:hover{
     .about-text h5{
         color: #000;
         letter-spacing: 1px;
-        font-size: 10px;
+        font-size: 20px;
         margin-bottom: 25px;
         text-transform: capitalize;
     }
@@ -250,7 +278,7 @@ nav ul li a:hover{
         color: black;
         letter-spacing: 1px;
         line-height: 28px;
-        font-size: 5px;
+        font-size: 18px;
         margin-bottom: 45px;
         text-align: justify;
     }
@@ -269,16 +297,72 @@ nav ul li a:hover{
         border: 2px solid red;
         cursor: pointer;
     }
-    nav a{
-        font-size: 10px;
-        margin-right: 15px;
+    .service{
+        background: #101010;
+        width: 100%;
+        padding: 100px 0;
+    
     }
-    .about-me{
-        width: 360px;
-        justify-content: center;
+    .title h2 {
+        color: white;
+        font-size: 75px;
+        width: 100%;
+        margin-bottom: 30px auto;
+        text-align: center;
+    }
+    .box {
         display: grid;
-
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+    }
+    .card{
+        height: 250px;
+        width: 230px;
+        padding: 20px 35px;
+        background: #141414;
+        border-radius: 15px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid red;
         
     }
-   
+    .card i{
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        margin: 12px 0;
+        color: red;
+    }
+    .card h5{
+        color: white;
+        font-size: 10px;
+        margin-bottom: 8px;
+        padding-bottom: 7px;
+        
+    }
+    .pra p a{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        font-size: 10px;
+        padding: 2px 6px;
+        border-radius: 10px;
+        
+       
+    }
+    .title h2{
+        color: blue;
+    }
+    .pra p a{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+    }
 }

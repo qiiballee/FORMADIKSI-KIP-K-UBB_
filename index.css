@@ -196,8 +196,8 @@ nav ul li a:hover{
         width: 400px;
         height: 400px;
         position: none;             
-        bottom: 90px;
-        right: none;
+        bottom: 50px;
+        right: 10px;
         left: none;
         transform: rotateY(180d3g);
         justify-content: center;
@@ -205,11 +205,12 @@ nav ul li a:hover{
         opacity: 40%;
         display: grid;
         padding-top: 20px;
+        top: 20px;
         
     }
     .image img{
-        height: 60%;
-        width: 55%;
+        height: 70%;
+        width: 65%;
         position: none;
         bottom: none;
         right: none;

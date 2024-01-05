@@ -5,8 +5,8 @@
 }
 .Home{
     background-color: white;
-    width: auto;
-    height: 550px;
+    width: 100%;
+    height: 100vh;
     background-image: url(background.jpg);
 } 
 nav{
@@ -54,7 +54,7 @@ div ul li a{
     font-weight: bold;
     padding: 5px 15px;
     border-radius: 30px;
-    margin-top: 200px;
+    margin-top: 150px;
     padding:10px 10px;
     list-style-type: none;
     display: inline-block;
@@ -69,7 +69,11 @@ div ul li a{
     font-size: 50px;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:570px) {
+    nav{
+        display: grid;
+        justify-content: center;
+    }
     nav i{
         padding-right: 9px;
         color: blue;

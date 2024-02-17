@@ -1,0 +1,617 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url(background.jpg);
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background: rgb(18,6,181);
+    background: radial-gradient(circle, rgba(18,6,181,1) 0%, rgba(252,8,8,1) 32%, rgba(126,6,200,1) 67%, rgba(0,0,0,1) 100%);
+    border-bottom: 5px solid black;
+
+}
+.logo{
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 40%;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.btn{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius:30px;
+    transition: 0.5s ;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.box {
+    padding-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;  
+}
+.card{
+    height: 450px;
+    width: 1275px;
+    padding: 20px 20px;
+    background: silver;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card h5{
+    color:red;
+    font-size: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+}
+
+.pra p a{
+    display: grid;
+    background-color: silver;
+    color: black;
+    border: 2px solid white;
+    font-weight: bold;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: 0.5s ;
+    
+}
+.pra p a:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.card .deskripsi{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 15px;
+}
+.about{
+    width: 100%;
+    padding: 40px 0;
+    background-image: url(background.jpg);
+    padding-bottom: 270px;
+}
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img{
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+    border:  2px solid red;
+}
+.about-text{
+    width: 550px;
+}
+.about-text h2{
+    color: whitesmoke;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 5px solid blue;
+    text-align: center;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px whitesmoke;
+}
+.about-text h5{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.Text1{
+    padding-top: 10px;
+}
+.Text2{
+    padding-top: 20px;
+    font-size: 10px;
+}
+.war1{
+    color: rgb(17, 17, 99);
+}
+.war2{
+    color: rgb(85, 8, 85);
+}
+.war4{
+    color: red;
+}
+h3 i{
+    color: gold;
+}
+@media only screen and (max-width:700px)
+{ 
+   
+    span{
+        color: whitesmoke;
+    }
+    .index{
+       
+        background-color: wheat;
+        
+    }
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    
+    .image img{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 250px;
+        height: 250px;
+       
+      
+       
+    }
+    h4{
+        color: red;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    h1{
+        color: black;
+        font-size: 25px;
+        margin: 15px 0 15px;
+    }
+    h3{
+        color: #191919;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .content a {
+        font-size: 15px;
+        background: red;
+        color: black;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 30px;
+        border: 2px solid black;
+        transition: .5s;
+    }
+    .about-me{
+        width: 550px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: grid;
+        align-items:center;
+        justify-content: center;
+    }
+    .about-me img{
+        height: auto;
+        width: 200px;
+        border-radius: 10px;
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        width: 250px;
+    }
+    .about-text h2{
+        color: #191919;
+        font-size: 10px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        border-bottom: 5px solid red;
+    
+    }
+    .about-text h5{
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: black;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+        text-align: justify;
+    }
+    .button{
+        background-color: red;
+        color: wheat;
+        border: 2px solid black;
+        font-weight: bold;
+        padding: 10px 27px;
+        border-radius: 30px;
+        transition: .5s;
+        font-size: small;
+    }
+    .button:hover{
+        background-color: black;
+        border: 2px solid red;
+        cursor: pointer;
+    }
+    .service{
+        background: #101010;
+        width: 100%;
+        padding: 100px 0;
+    
+    }
+    .title h2 {
+        color: white;
+        font-size: 75px;
+        width: 100%;
+        margin-bottom: 30px auto;
+        text-align: center;
+    }
+    .box {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+    }
+    .card{
+        height: 290px;
+        width: 230px;
+        padding: 20px 35px;
+        background: #141414;
+        border-radius: 15px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid red;
+        
+    }
+    .card i{
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        margin: 12px 0;
+        color: red;
+    }
+    .card h5{
+        color: white;
+        font-size: 10px;
+        margin-bottom: 8px;
+        padding-bottom: 7px;
+        
+    }
+    .pra p a{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        font-size: 10px;
+        padding: 2px 6px;
+        border-radius: 10px;
+        
+       
+    }
+    .title h2{
+        color: blue;
+    }
+    .pra p a{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+    }
+   .war3{
+    font-size: 24px;
+   }
+    
+
+}
+@media only screen and (max-width:260px)
+{ 
+   
+    span{
+        color: whitesmoke;
+    }
+    .index{
+        margin-right: -22px;
+        background-color: wheat;
+        
+    }
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        margin-right: -22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+    
+    .image img{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 250px;
+        height: 250px;
+        margin-right: -22px;
+        
+       
+      
+       
+    }
+    h4{
+        color: red;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    h1{
+        color: black;
+        font-size: 25px;
+        margin: 15px 0 15px;
+    }
+    h3{
+        color: #191919;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .content a {
+        font-size: 15px;
+        background: red;
+        color: black;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 30px;
+        border: 2px solid black;
+        transition: .5s;
+    }
+    .about-me{
+        width: 550px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: grid;
+        align-items:center;
+        justify-content: center;
+        margin-right: -20px;
+    }
+    .about-me img{
+        height: auto;
+        width: 200px;
+        border-radius: 10px;
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        width: 250px;
+    }
+    .about-text h2{
+        color: #191919;
+        font-size: 10px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        border-bottom: 5px solid red;
+    
+    }
+    .about-text h5{
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: black;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+        text-align: justify;
+    }
+    .button{
+        background-color: red;
+        color: wheat;
+        border: 2px solid black;
+        font-weight: bold;
+        padding: 10px 27px;
+        border-radius: 30px;
+        transition: .5s;
+        font-size: small;
+    }
+    .button:hover{
+        background-color: black;
+        border: 2px solid red;
+        cursor: pointer;
+    }
+    .service{
+        background: #101010;
+        width: 100%;
+        padding: 100px 0;
+    
+    }
+    .title h2 {
+        color: white;
+        font-size: 75px;
+        width: 100%;
+        margin-bottom: 30px auto;
+        text-align: center;
+    }
+    .box {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+    }
+    .card{
+        height: 290px;
+        width: 230px;
+        padding: 20px 35px;
+        background: #141414;
+        border-radius: 15px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid red;
+        
+    }
+    .card i{
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        margin: 12px 0;
+        color: red;
+    }
+    .card h5{
+        color: white;
+        font-size: 10px;
+        margin-bottom: 8px;
+        padding-bottom: 7px;
+        
+    }
+    .pra p a{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        font-size: 10px;
+        padding: 2px 6px;
+        border-radius: 10px;
+        
+       
+    }
+    .title h2{
+        color: blue;
+    }
+    .pra p a{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+    }
+   .war3{
+    font-size: 24px;
+   }
+   .about{
+    margin-right: -40px;
+   }
+
+}

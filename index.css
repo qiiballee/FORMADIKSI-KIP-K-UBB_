@@ -30,7 +30,7 @@ nav{
     cursor: pointer;
 }
 nav ul li{
-    list-style-type: none;
+    
     display: inline-block;
     padding: 10px 10px;
 }
@@ -44,6 +44,22 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
     transition: 0.5s;
+}
+nav li ul.dropdown li{
+    display: block;
+}
+nav ul li ul.dropdown {
+    width: 160px;
+    background: BLACK;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+nav ul li a:hover{
+    background: whitesmoke;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
 }
 .btn{
     background-color: white;
@@ -129,6 +145,7 @@ nav ul li a:hover{
 h3 i{
     color: gold;
 }
+
 
 @media only screen and (min-width:1920px)
 { 

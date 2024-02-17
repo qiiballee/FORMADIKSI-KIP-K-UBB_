@@ -89,12 +89,33 @@ nav ul li a:hover{
     border: 2px solid white;
     font-weight: bold;
     padding: 5px 7px;
-    border-radius: 20px;
-    font-size: 15px;
+    border-radius: 30px;
+    transition: 0.5s ;
+
     
+}
+.pra p a:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
 }
 .card .deskripsi{
     font-size: 11px;
     color: black;
     padding-bottom: 15px;
+}
+.btn{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius:30px;
+    transition: 0.5s ;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
 }

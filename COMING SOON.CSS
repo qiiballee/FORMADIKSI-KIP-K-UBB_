@@ -85,3 +85,57 @@ nav ul li:hover ul.dropdown{
     text-align: center;
     text-shadow: 5px 5px 10px blue, -5px -5px 10px black;
 }
+@media only screen and (max-width:700px)
+{ 
+   
+    span{
+        color: whitesmoke;
+    }
+    .index{
+       
+        background-color: wheat;
+        
+    }
+    .logo{
+        width: 30%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4%;
+        padding-left: 4%;
+        background-color: #191919;
+        border-bottom: 3px solid black;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding:2px 2px;
+    }
+    nav a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    .btn{
+        background-color: red;
+        color: wheat;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 3px 6px;
+        border-radius: 20px;
+        transition: transform .5s;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        text-transform: capitalize; 
+    }  
+}

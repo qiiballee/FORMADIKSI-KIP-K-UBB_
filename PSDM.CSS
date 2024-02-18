@@ -53,6 +53,8 @@ nav ul li ul.dropdown {
     position: absolute;
     z-index: 999;
     display: none;
+    border-radius: 10px;
+    border:  2px solid red;
 }
 nav ul li a:hover{
     background: whitesmoke;
